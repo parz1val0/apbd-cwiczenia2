@@ -17,5 +17,5 @@ static double GetAvarage(int[] numbers)
 }
 
 
-int[] numbers = { 1, 2, 3, 4 };/*
-double avg = GetAvarage(numbers);*/
+int[] numbers = { 1, 2, 3, 4 };
+double avg = GetAvarage(numbers);
