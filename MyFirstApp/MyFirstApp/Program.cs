@@ -3,3 +3,4 @@
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Pierwsza Zmiana");
 Console.WriteLine("Druga zmiania");
+Console.WriteLine("3 zmiania");
