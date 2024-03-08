@@ -16,6 +16,6 @@ static double GetAvarage(int[] numbers)
     return (double) sum/numbers.Length;
 }
 
-/*
-int[] numbers = { 1, 2, 3, 4 };
+
+int[] numbers = { 1, 2, 3, 4 };/*
 double avg = GetAvarage(numbers);*/
