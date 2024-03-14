@@ -8,12 +8,12 @@ Console.WriteLine("3 zmiania");
 
 static double GetAvarage(int[] numbers)
 {
-    int sum = 0;
+    int suma = 0;
     foreach (var number in numbers)
     {
-        sum += number;
+        suma += number;
     }
-    return (double) sum/numbers.Length;
+    return (double) suma/numbers.Length;
 }
 static int GetMax(int[] numbers)
 {
