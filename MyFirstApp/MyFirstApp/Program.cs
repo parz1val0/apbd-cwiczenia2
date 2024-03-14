@@ -6,9 +6,10 @@ Console.WriteLine("Druga zmiania");
 Console.WriteLine("3 zmiania");
 
 
-static double GetAvarage(int[] numbers)
+static double GetAvg(int[] numbers)
 {
     int suma = 0;
+    //wyliczenie sredniej
     foreach (var number in numbers)
     {
         suma += number;
@@ -31,4 +32,4 @@ static int GetMax(int[] numbers)
 //hello world
 int[] numbers = { 1, 2, 3, 4 };
 Console.WriteLine(GetMax(numbers));
-double avg = GetAvarage(numbers);
+double avg = GetAvg(numbers);
