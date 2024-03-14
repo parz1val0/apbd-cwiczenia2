@@ -28,7 +28,7 @@ static int GetMax(int[] numbers)
     return max;
 }
 
-
+//hello world
 int[] numbers = { 1, 2, 3, 4 };
 Console.WriteLine(GetMax(numbers));
 double avg = GetAvarage(numbers);
