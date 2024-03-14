@@ -15,7 +15,20 @@ static double GetAvarage(int[] numbers)
     }
     return (double) sum/numbers.Length;
 }
+static int GetMax(int[] numbers)
+{
+    int max = 0;
+    foreach (var number in numbers)
+    {
+        if (max < number)
+        {
+            max = number;
+        }
+    }
+    return max;
+}
 
 
 int[] numbers = { 1, 2, 3, 4 };
+Console.WriteLine(GetMax(numbers));
 double avg = GetAvarage(numbers);
